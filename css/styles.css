@@ -72,17 +72,15 @@
 .caption:hover .h1{
   
     font-size: 2em;
-  
-  
- 
-  
 
 }
 
+@media (min-width: 1200px){
 .caption:hover .koorid{
   
     display: none
 
+}
 }
 
 @media (max-width: 1200px){
@@ -94,7 +92,7 @@
 
 @media (max-width: 1200px){
   .caption:hover .koorid{
-    display: visibe
+    display: visible
  
   }
 }
