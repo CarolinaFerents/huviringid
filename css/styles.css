@@ -95,6 +95,14 @@
 }
 
 @media (max-width: 1200px){
+   p{
+    font-size: 15px;
+	 
+ 
+  }
+}
+
+@media (max-width: 1200px){
    .tekst p{
     font-size: 15px;
 	   color: white;
