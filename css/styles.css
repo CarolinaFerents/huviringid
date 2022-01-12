@@ -79,6 +79,16 @@
 
 }
 
+.caption:hover .koorid{
+  
+    display: none
+  
+  
+ 
+  
+
+}
+
 
 .scroll-top {
   width: 75px;
