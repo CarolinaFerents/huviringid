@@ -215,6 +215,20 @@ color: white;
   }
 }
 
+@media (max-width: 1200px){
+  .caption .koorid{
+    font-size: 1em; 
+ 
+  }
+}
+
+@media (max-width: 1200px){
+  .caption:onhover .koorid{
+    display: visibe
+ 
+  }
+}
+
 img {
   opacity: 0.8;
 }
