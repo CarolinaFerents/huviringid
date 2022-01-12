@@ -84,8 +84,8 @@
 }
 
 @media (max-width: 1200px){
-  .koorid .tekst p{
-    column-width: 200px
+  .koorid .tekst{
+    display: none
  
   }
 }
