@@ -69,6 +69,15 @@
 }
 
 
+  .mobileShow {display: none;
+
+ 
+  @media (max-width: 1200px){ 
+      .mobileShow {display: inline;}
+  }
+
+
+
 .caption:hover .h1{
   
     font-size: 2em;
