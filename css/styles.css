@@ -82,13 +82,22 @@
 .caption:hover .koorid{
   
     display: none
-  
-  
- 
-  
 
 }
 
+@media (max-width: 1200px){
+  .caption .koorid{
+    font-weight: 400px; 
+ 
+  }
+}
+
+@media (max-width: 1200px){
+  .caption:hover .koorid{
+    display: visibe
+ 
+  }
+}
 
 .scroll-top {
   width: 75px;
@@ -215,19 +224,7 @@ color: white;
   }
 }
 
-@media (max-width: 1200px){
-  .caption .koorid{
-    font-size: 1em; 
- 
-  }
-}
 
-@media (max-width: 1200px){
-  .caption:onhover .koorid{
-    display: visibe
- 
-  }
-}
 
 img {
   opacity: 0.8;
