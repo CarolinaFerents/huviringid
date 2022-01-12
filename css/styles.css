@@ -69,6 +69,16 @@
 }
 
 
+.caption:hover .h1{
+  
+    font-size: 2em;
+  
+  
+ 
+  
+
+}
+
 
 .scroll-top {
   width: 75px;
@@ -188,6 +198,13 @@ color: white;
   }
 }
 
+@media (max-width: 1200px){
+  h1, .h1{
+    text-shadow: 2px 2px grey;
+ 
+  }
+}
+
 img {
   opacity: 0.8;
 }
@@ -199,9 +216,9 @@ img {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   h1, .h1 {
-    font-size: 1.5rem;
+    font-size: 2em;
     
   }
 }
@@ -214,23 +231,46 @@ img {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .caption-content {
-    background-color: rgba(15, 15, 15, 0.726);
+   
+    width: 100%;
     padding: 10px;
+    margin: -30px
    
   }
 }
 
+@media (max-width: 1200px) {
+  img {
+    filter:brightness(30%);
+   
+  }
+}
 
-@media (max-width: 600px) {
+.caption-content .h1 {
+  line-height: 60px;
+ margin-right: -20px;
+  margin-left: -10px;
+  
+  
+}
+
+p {
+  line-height: 20px;
+ margin-right: -20px;
+  margin-left: -10px;
+  
+}
+
+@media (max-width: 1200px) {
   p {
     line-height: 20px;
     
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   #pealkiri {
     font-size: 30px;
     
@@ -238,7 +278,7 @@ img {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   h2, .h2 {
     font-size: 10px;
    
@@ -4056,7 +4096,7 @@ textarea.form-control-lg {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  
   color: #1D809F;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -11638,6 +11678,9 @@ footer.footer .social-link:hover {
     max-width: none;
     margin: 0;
   }
+
+
+
   .portfolio-item .caption {
     transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, background-color 0.7s;
