@@ -85,7 +85,8 @@
 
 @media (max-width: 1200px){
    .tekst{
-    display: none
+    font-size: 15px;
+	   column-width: 200px
  
   }
 }
