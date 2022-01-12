@@ -93,7 +93,7 @@
 }
 
 @media (max-width: 1200px){
-   .tekst{
+   .tekst p{
     font-size: 15px;
 	   color: black;
 	   
@@ -101,14 +101,7 @@
   }
 }
 
-@media (max-width: 1200px){
-   .koorid{
-    font-size: 15px;
-	   color: black;
-	   
- 
-  }
-}
+
 
 @media (max-width: 1200px){
   .caption .koorid{
