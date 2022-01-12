@@ -95,7 +95,8 @@
 @media (max-width: 1200px){
    .tekst{
     font-size: 15px;
-	   column-width: 200px
+	   color: black;
+	   background: white
  
   }
 }
