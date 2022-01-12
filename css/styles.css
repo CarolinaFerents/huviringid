@@ -84,15 +84,15 @@
 }
 
 @media (max-width: 1200px){
-  .caption .koorid{
+  .caption .koorid p{
     font-weight: 400px; 
  
   }
 }
 
 @media (max-width: 1200px){
-  .caption:hover .koorid{
-    display: visible
+  .caption .koorid{
+    display: visible;
  
   }
 }
