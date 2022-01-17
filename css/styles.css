@@ -73,6 +73,12 @@
 
 
 
+.caption:hover .tants{
+  
+    font-size: 2em;
+
+}
+
 .caption:hover .h1{
   
     font-size: 2em;
@@ -83,6 +89,14 @@
 .caption:hover .koorid{
   
     display: none
+
+}
+}
+
+
+@media (max-width: 1200px){
+.caption .tants{
+  font-size: 20px;
 
 }
 }
